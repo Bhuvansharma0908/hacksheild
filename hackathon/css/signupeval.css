@@ -1,0 +1,327 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #140643;
+}
+
+#heading {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100vw;
+    background-color: #140643;
+}
+
+#leftlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 20vw;
+}
+
+#rightlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 15vw;
+}
+
+.logo {
+    height: 10vh;
+    width: 7vw;
+    margin: 10px;
+}
+
+#culogo {
+    background-image: url(/photos/cu-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 4vw;
+}
+
+#kavachlogo {
+    background-image: url(/photos/kavach-logo-white.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    width: 10vw;
+}
+
+#nacc {
+    background-image: url(/photos/NAAC-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 15vh;
+    width: 7vw;
+}
+
+#outerform {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+#internalform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 80vw;
+}
+
+#mainform {
+    height: 70vh;
+    background: url(/photos/Rectangle62.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 100;
+    width: 75vw;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins';
+}
+
+h4 {
+    color: white;
+    font-family: 'Poppins';
+}
+
+.twofeild {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 75vw;
+}
+
+.feild1 {
+    height: 13vh;
+    width: 30vw;
+}
+
+.feild2 {
+    height: 13vh;
+    width: 30vw;
+}
+
+#pschoose {
+    height: 13vh;
+    width: 75vw;
+}
+
+.twofeild2 {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    width: 75vw;
+}
+
+#buttondiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 75vw;
+}
+
+#buttondiv button {
+    color: black;
+    height: 7vh;
+    width: 30vw;
+    background: #4EC0EA;
+    border: 1px solid #000000;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .2s ease-in-out 0s;
+}
+
+#buttondiv button:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#pschoose #psid {
+    background: rgba(78, 192, 234, 0.322917);
+    border: none;
+    height: 7vh;
+    width: 75vw;
+    color: white;
+}
+
+.twofeild2 input {
+    height: 3vh;
+    margin: 10px;
+    width: 2vw;
+}
+
+input {
+    background: rgba(78, 192, 234, 0.322917);
+    border: none;
+    height: 7vh;
+    width: 25vw;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    transition: .2s ease-in-out 0s;
+    border-radius: 10px;
+}
+
+select {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input:hover {
+    transform: scale(1.002);
+    border: 2px solid white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #heading {
+        display: flex;
+        justify-content: space-between;
+        height: 13vh;
+        width: 100vw;
+        background-color: #140643;
+    }
+    #leftlogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 40vw;
+    }
+    #rightlogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 30vw;
+    }
+    .logo {
+        height: 5vh;
+        margin: 10px;
+    }
+    #culogo {
+        background-image: url(/photos/cu-logo.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 7vw;
+    }
+    #kavachlogo {
+        background-image: url(/photos/kavach-logo-white.png);
+        background-repeat: no-repeat;
+        background-size: 100% 90%;
+        width: 15vw;
+    }
+    #nacc {
+        background-image: url(/photos/NAAC-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 10vh;
+        width: 15vw;
+    }
+    #outerform {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    #internalform {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        width: 80vw;
+    }
+    #mainform {
+        height: 80vh;
+        background: url(/photos/Rectangle62.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 100;
+        width: 75vw;
+    }
+    h1 {
+        color: white;
+        font-family: 'Poppins';
+    }
+    h4 {
+        color: white;
+        font-family: 'Poppins';
+    }
+    .twofeild {
+        height: 28vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 75vw;
+    }
+    .feild1 {
+        height: 10vh;
+        width: 70vw;
+        margin: 10px;
+    }
+    .feild2 {
+        height: 10vh;
+        width: 70vw;
+        margin: 10px;
+    }
+    #ps {
+        height: 20vh;
+    }
+    input {
+        background: rgba(78, 192, 234, 0.322917);
+        border: none;
+        height: 7vh;
+        width: 70vw;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 5px;
+        transition: .2s ease-in-out 0s;
+        border-radius: 10px;
+    }
+    .twofeild2 {
+        display: flex;
+        align-items: center;
+        height: 20vh;
+        width: 75vw;
+    }
+    .twofeild2 input {
+        height: 10vh;
+        width: 10vw;
+        margin: 10px;
+    }
+    #buttondiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        width: 75vw;
+    }
+    #buttondiv button {
+        color: black;
+        height: 7vh;
+        width: 60vw;
+        background: #4EC0EA;
+        border: 1px solid #000000;
+        font-size: 20px;
+        font-weight: bold;
+        transition: .2s ease-in-out 0s;
+    }
+}

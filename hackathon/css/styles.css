@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    /* color: white */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Poppins&family=Shantell+Sans&display=swap');
+#header {
+    background: url("../photos/Untitled\ design-2.gif") center no-repeat;
+    width: 100%;
+    height: 675px;
+    color: white;
+    z-index: -1;
+    background-size: 100% 100%;
+}
+
+nav {
+    height: 5em;
+    background-color: transparent;
+    font-family: arial, tahoma;
+}
+
+.logo {
+    padding: 10px;
+    width: auto;
+    float: left;
+    height: 100%;
+}
+
+.logo img {
+    height: 90%;
+    margin-right: 1em;
+}
+
+.list-item {
+    float: right;
+    margin-right: 25px;
+    margin-top: 17px;
+    height: 100%;
+}
+
+.list-item li {
+    float: left;
+    padding: 13px 13px;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: all .4s ease-in-out;
+}
+
+.list-item li a {
+    color: #EEE;
+}
+
+.list-item li img {
+    height: 60%;
+}
+
+.icon {
+    display: none;
+}
+
+.toggle {
+    float: right;
+    margin: 20px;
+    color: #EEE;
+    font-size: 30px;
+    border: 1px solid #EEE;
+    padding: 0px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#NAAC {
+    float: right;
+    margin-top: 1em;
+    width: 6em;
+}
+
+#title-heading {
+    /* display: grid; */
+    /* grid-template-columns: repeat(1,1fr); */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4em;
+    /* margin-left: 22em; */
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+p {
+    font-size: 0.8em;
+}
+
+#Register {
+    background-color: #46849B;
+    height: 6em;
+    width: 16em;
+    border-radius: 2em;
+    border-style: hidden;
+    color: white;
+    margin-top: 18em;
+    float: right;
+}
+
+#stages {
+    color: #140643;
+    font-size: 2em;
+    margin-top: 1.5em;
+    padding-left: 2em;
+    background: url("../photos/13-\ 23\ March\ REGISTRATION.png") center no-repeat;
+    height: 20em;
+    width: 100%;
+    z-index: -1;
+    background-size: 90% 100%;
+    /* overflow-x: hidden; */
+}
+
+#MoreInfo {
+    color: #140643;
+    padding-left: 2em;
+    font-size: 2em;
+    padding-bottom: 2em;
+}
+
+#Grid-container {
+    margin-top: 1em;
+    color: #140643;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+#ProblemIdentification {
+    background: url("../photos/Problem\ Identification-2.png");
+    height: 12em;
+    padding: 2em;
+    text-align: center;
+    width: 70%;
+    background-size: 100% 100%;
+}
+
+#teamFormation {
+    background: url("../photos/Untitled\ design.gif");
+    height: 12em;
+    margin-top: 3em;
+    padding: 2em;
+    text-align: center;
+    width: 70%;
+    background-size: 100% 100%;
+}
+
+#footer {
+    padding: 1em;
+}
+
+#footer img {
+    margin-right: 1em;
+    width: 100%;
+}
+
+#Register:hover {
+    background-color: gray;
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+    #header {
+        width: 100%;
+    }
+    .icon {
+        display: block;
+        width: 100%;
+        height: 4em;
+        background-color: transparent;
+        border: none;
+    }
+    .list-item {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -2em;
+        display: none;
+    }
+    .list-item li {
+        text-align: center;
+        display: block;
+        float: none;
+    }
+    li img {
+        height: 50%;
+    }
+    #NAAC {
+        margin-top: -3em;
+    }
+    p {
+        display: none;
+    }
+    #stages img {
+        width: 100%
+    }
+}
+
+@media (max-width: 500px) {
+    #Grid-container {
+        color: #140643;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2em;
+    }
+    #MoreInfo {
+        padding-left: 2em;
+    }
+    #ProblemIdentification {
+        height: 9em;
+        width: 9em;
+    }
+    #teamFormation {
+        height: 9em;
+        width: 9em;
+    }
+}
+
+@media (max-width: 650px) {
+    #header {
+        background: url("../photos/HACKSHILED\ CU.gif") center no-repeat;
+        width: 100%;
+        height: 675px;
+        color: white;
+        z-index: -1;
+        background-size: 100% 100%;
+    }
+    #stages {
+        background: url("../photos/HACKSHILED\ CU.png");
+        height: 20em;
+        width: 100%;
+        z-index: -1;
+        background-size: 100% 100%;
+    }
+    #title-heading {
+        /* display: grid; */
+        /* grid-template-columns: repeat(1,1fr); */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Register {
+        background-color: #46849B;
+        height: 6em;
+        width: 16em;
+        border-radius: 2em;
+        border-style: hidden;
+        color: white;
+        margin-top: 18em;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 390px) {
+    #Grid-container {
+        color: #140643;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5em;
+    }
+    #MoreInfo {
+        font-size: 1em;
+    }
+    #stages h1 {
+        font-size: 1em;
+    }
+}
